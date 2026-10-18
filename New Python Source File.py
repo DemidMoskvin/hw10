@@ -1,7 +1,7 @@
-a = [1231, "1", "Hello", ["World"], "asdad", 123]
+items = [1231, "1", "Hello", ["World"], "asdad", 123]
 count = 0
 
-for i in a:
+for i in items:
     if type(i) == str:
         count += 1
 
