@@ -1,6 +1,8 @@
-a = [1231, '1', "Hello", ['World'], "asdad", 123]
-b=0
+a = [1231, "1", "Hello", ["World"], "asdad", 123]
+count = 0
+
 for i in a:
-    if type(i)==str:
-        b+=1
-print(b)
+    if type(i) == str:
+        count += 1
+
+print("Number of strings:", count)
